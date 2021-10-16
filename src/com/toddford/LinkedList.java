@@ -26,7 +26,7 @@ public class LinkedList {
 
     public void addFirst(int item) {
         var node = new Node(item);
-        if (isEmpty()) {
+        if (this.isEmpty()) {
             first = last = node;
         }
         else {
